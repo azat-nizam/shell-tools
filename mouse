@@ -1,4 +1,6 @@
 #!/bin/bash
 xset m 10/10 0
-xinput set-prop 10 "Device Accel Constant Deceleration" 2.6
 
+#Device id retrieve by using "xinput --list" and set instead "10" below
+#Last param ("2.6" below) is deceleration value
+xinput set-prop 10 "Device Accel Constant Deceleration" 2.6
